@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #fcda85;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="siyanie.LogInController">
+   <children>
+      <Pane layoutX="-3.0" prefHeight="60.0" prefWidth="606.0" style="-fx-background-color: #ffba85;">
+         <children>
+            <Label layoutX="260.0" layoutY="18.0" text="Сияние">
+               <font>
+                  <Font name="GothamPro-Black" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Button fx:id="log_inId" layoutX="246.0" layoutY="273.0" mnemonicParsing="false" onAction="#LoginHandler" prefHeight="52.0" prefWidth="111.0" style="-fx-background-color: #ffba85;" text="Вход">
+         <font>
+            <Font name="GothamPro-Black" size="12.0" />
+         </font>
+      </Button>
+      <PasswordField fx:id="passwordFiledId" layoutX="286.0" layoutY="208.0" style="-fx-background-color: #ffba85;" />
+      <TextField fx:id="loginFieldId" layoutX="286.0" layoutY="158.0" style="-fx-background-color: #ffba85;" />
+      <Label layoutX="226.0" layoutY="101.0" text="Вход в магазин">
+         <font>
+            <Font name="GothamPro-Black" size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="173.0" layoutY="163.0" text="Логин">
+         <font>
+            <Font name="GothamPro-Black" size="17.0" />
+         </font>
+      </Label>
+      <Label layoutX="163.0" layoutY="212.0" text="Пароль">
+         <font>
+            <Font name="GothamPro-Black" size="17.0" />
+         </font>
+      </Label>
+      <Hyperlink fx:id="registrationId" layoutX="211.0" layoutY="340.0" onAction="#RegistrationHandler" text="Нет аккаунта? Регистрация" />
+   </children>
+</AnchorPane>

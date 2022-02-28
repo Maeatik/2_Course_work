@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #fcda85;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="siyanie.BasketController">
+   <children>
+      <Pane prefHeight="60.0" prefWidth="600.0" style="-fx-background-color: #ffba85;">
+         <children>
+            <Button fx:id="HomeBtn" layoutX="14.0" layoutY="12.0" mnemonicParsing="false" onAction="#BackMainHandler" prefHeight="37.0" prefWidth="43.0" style="-fx-background-color: transparent;" text="🏠" />
+            <Button fx:id="BackMainBtn" layoutX="247.0" layoutY="13.0" mnemonicParsing="false" onAction="#BackMainHandler" style="-fx-background-color: transparent;" text="Сияние">
+               <font>
+                  <Font name="GothamPro-Black" size="20.0" />
+               </font>
+            </Button>
+            <Button fx:id="AccountBtn" layoutX="475.0" layoutY="13.0" mnemonicParsing="false" onAction="#AccountHandler" prefHeight="37.0" prefWidth="132.0" style="-fx-background-color: transparent;" text="Личный кабинет">
+               <font>
+                  <Font name="GothamPro-Black" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Label layoutX="86.0" layoutY="75.0" text="Ваш заказ">
+         <font>
+            <Font name="GothamPro-Black" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="325.0" layoutY="75.0" text="Итого:">
+         <font>
+            <Font name="GothamPro-Black" size="23.0" />
+         </font>
+      </Label>
+      <Button fx:id="PayBtn" layoutX="348.0" layoutY="256.0" mnemonicParsing="false" onAction="#PayHandler" prefHeight="32.0" prefWidth="202.0" style="-fx-background-color: #ffba85; -fx-font-size: 15; -fx-font-style: bold; -fx-font-family: 'Gotham Pro Bold';" text="Заказать">
+         <font>
+            <Font name="GothamPro" size="16.0" />
+         </font>
+      </Button>
+      <Line endY="131.49996948242188" layoutX="300.0" layoutY="165.0" startY="-105.00001525878906" />
+      <Line endX="208.4000244140625" layoutX="402.0" layoutY="297.0" startX="-101.5" />
+      <SplitPane layoutX="1.0" layoutY="111.0" prefHeight="289.0" prefWidth="298.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <TableView fx:id="backetTable" editable="true" layoutX="-25.0" layoutY="14.0" prefHeight="288.0" prefWidth="297.0" style="-fx-background-color: #fcda85;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <columns>
+                      <TableColumn fx:id="backetName" prefWidth="183.1999755501747" style="-fx-background-color: #fcda85;" text="Название" />
+                      <TableColumn fx:id="backetCost" prefWidth="112.00003051757812" style="-fx-background-color: #fcda85;" text="Цена" />
+                        <TableColumn fx:id="tmp" prefWidth="75.0" style="-fx-background-color: #fcda85;" text="tmp" visible="false" />
+                        <TableColumn fx:id="backetCount" prefWidth="66.4000244140625" style="-fx-background-color: #fcda85;" text="Кол-во" visible="false" />
+                    </columns>
+                  </TableView>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <Button fx:id="deleteBtn" layoutX="338.0" layoutY="346.0" mnemonicParsing="false" onAction="#deleteHandler" prefHeight="37.0" prefWidth="214.0" style="-fx-background-color: #ffba85;" text="Удалить из корзины">
+         <font>
+            <Font name="GothamPro" size="12.0" />
+         </font>
+      </Button>
+      <Label fx:id="finalCost" layoutX="326.0" layoutY="207.0" prefHeight="26.0" prefWidth="254.0">
+         <font>
+            <Font name="GothamPro-Black" size="16.0" />
+         </font>
+      </Label>
+      <TextArea fx:id="checkVinyl" editable="false" layoutX="327.0" layoutY="105.0" prefHeight="90.0" prefWidth="254.0" style="-fx-control-inner-background: #fcda85; -fx-border-color: black;">
+         <font>
+            <Font name="GothamPro" size="11.0" />
+         </font>
+      </TextArea>
+   </children>
+</AnchorPane>

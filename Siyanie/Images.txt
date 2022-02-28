@@ -1,0 +1,26 @@
+Believer
+images\\Believer.jpg
+Black Album
+images\\Black Album.jpg
+AM
+images\\AM.jpg
+POWER UP
+images\\POWER UP.jfif
+PARACHUTES (20TH ANNIVERSARY)
+images\\PARACHUTES (20TH ANNIVERSARY).jfif
+Naruto Openings
+images\\Naruto Openings.jpg
+THE 3 TENORS 1994
+images\\THE 3 TENORS 1994.jpg
+INTERSTELLAR 
+images\\FOREVER YOUNG.jfif
+FOREVER YOUNG
+images\\FOREVER YOUNG.jfif
+FOREVER ALONE
+images\\FOREVER ALONE.jfif
+CALL ME BY YOUR NAME
+images\\CALL ME BY YOUR NAME.jfif
+В
+images\\B.jpg
+The Game of Thrones
+images\GoT.jfif

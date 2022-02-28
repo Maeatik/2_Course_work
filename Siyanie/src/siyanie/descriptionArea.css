@@ -1,0 +1,7 @@
+.text-area {
+    descriptionArea:  #ffba85 ;
+}
+
+.text-area .content {
+    -fx-background-color: descriptionArea;
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #fcda85;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="siyanie.PageController">
+   <children>
+      <ImageView fitHeight="165.0" fitWidth="227.0" layoutX="44.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Pictures/Camera%20Roll/загл.png" />
+         </image>
+      </ImageView>
+      <Label fx:id="choosenName" layoutX="300.0" layoutY="65.0" prefHeight="74.0" prefWidth="294.0" text="Пластинка 1" underline="true">
+         <font>
+            <Font name="GothamPro-Black" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="choosenAuthor" layoutX="300.0" layoutY="141.0" text="Автор">
+         <font>
+            <Font name="GothamPro" size="12.0" />
+         </font></Label>
+      <Label fx:id="choosenGenre" layoutX="299.0" layoutY="159.0" text="Жанр">
+         <font>
+            <Font name="GothamPro" size="12.0" />
+         </font></Label>
+      <Button fx:id="addBasket" layoutX="71.0" layoutY="298.0" mnemonicParsing="false" onAction="#addBascketHandler" prefHeight="32.0" prefWidth="157.0" style="-fx-background-color: #ffba85;" text="Добавить в корзину">
+         <font>
+            <Font name="GothamPro" size="12.0" />
+         </font></Button>
+      <Label fx:id="choosenDescription" alignment="TOP_LEFT" layoutX="299.0" layoutY="182.0" prefHeight="154.0" prefWidth="266.0" style="-fx-background-color: #ffba85;" text="Описание">
+         <font>
+            <Font name="GothamPro" size="12.0" />
+         </font>
+      </Label>
+      <Pane layoutX="-3.0" prefHeight="66.0" prefWidth="606.0" style="-fx-background-color: #ffba85;">
+         <children>
+            <Button fx:id="bascketBtn" layoutX="415.0" layoutY="15.0" minWidth="53.0" mnemonicParsing="false" onAction="#checkBascketHandler" prefHeight="32.0" prefWidth="53.0" style="-fx-background-color: transparent;" text="🛒">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Button fx:id="AccountBtn" layoutX="460.0" layoutY="12.0" mnemonicParsing="false" onAction="#AccountHandler" prefHeight="37.0" prefWidth="132.0" style="-fx-background-color: transparent;" text="Личный кабинет">
+               <font>
+                  <Font name="GothamPro-Black" size="12.0" />
+               </font>
+            </Button>
+            <Button fx:id="HomeBtn" layoutX="22.0" layoutY="12.0" mnemonicParsing="false" onAction="#BackMainHandler" prefHeight="37.0" prefWidth="43.0" style="-fx-background-color: transparent;" text="🏠" />
+            <Button fx:id="BackMainBtn" layoutX="250.0" layoutY="17.0" mnemonicParsing="false" onAction="#BackMainHandler" style="-fx-background-color: transparent;" text="Сияние">
+               <font>
+                  <Font name="GothamPro-Black" size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Button fx:id="addBasket1" layoutX="14.0" layoutY="295.0" minWidth="53.0" mnemonicParsing="false" onAction="#addBascketHandler" prefHeight="32.0" prefWidth="53.0" style="-fx-background-color: transparent;" text="🛒">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="choosenImage" fitHeight="150.0" fitWidth="200.0" layoutX="44.0" layoutY="102.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="choosenCost" layoutX="71.0" layoutY="269.0" text="Стоимость">
+         <font>
+            <Font name="GothamPro" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

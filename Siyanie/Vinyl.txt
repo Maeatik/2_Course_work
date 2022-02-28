@@ -1,0 +1,61 @@
+Список пластинок
+Believer
+Rock
+Imagine Dragons
+2300.00
+
+Black Album
+Pop
+Kino
+1111.00
+
+AM
+Alternative
+Arctic Monkeys
+3000.00
+
+POWER UP
+Rock
+AC/DC
+3020.50
+
+PARACHUTES (20TH ANNIVERSARY)
+Pop
+COLDPLAY
+4250.00
+
+Naruto Openings
+OST
+Kishimoto Haruko
+7777.77
+
+THE 3 TENORS 1994
+Classic
+3 TENORS, THE
+1500.00
+
+INTERSTELLAR 
+OST
+ZIMMER, HANS
+2700.00
+
+FOREVER YOUNG
+Rap
+ALPHAVILLE
+2500.00
+
+FOREVER ALONE
+R&B
+JoJi
+4000.00
+
+CALL ME BY YOUR NAME
+OST
+Sufjan Stevens
+4300.00
+
+The Game of Thrones
+Ramin Djawadi
+OST
+2500
+
